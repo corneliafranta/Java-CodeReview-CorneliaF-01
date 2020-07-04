@@ -1,9 +1,6 @@
-package com.example.rectcalc;
-
 import java.util.Vector;
 
-public class RectCalc {
-
+public class RectSquareCalc {
     public static void main(String[] args) {
 
         double width, height;
@@ -17,7 +14,7 @@ public class RectCalc {
 
         Vector<Double> rectangeResults = new Vector();
         Vector<double[]> squareResults = new Vector();
-        
+
         //I cant see the image so i asumed it might show me some values for calling the method so i just choose some myself
 
         //point3
@@ -107,3 +104,5 @@ public class RectCalc {
         return new double[]{area, perimeter};
     }
 }
+
+
